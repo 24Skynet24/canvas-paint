@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+canvas{
+    display: block;
+}
+
+aside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1rem;
+    background: #fff;
+    z-index: 3;
+    width: 10rem;
+    height: calc(100% - 2rem);
+    box-shadow: 0 0 5px #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.fill{
+    display: flex;
+    flex-direction: column;
+}
+
+.fill-item{
+    margin-bottom: .7rem;
+    width: 100%;
+    background: rgba(0,0,0,1);
+    cursor: pointer;
+}
+
+.fill-item:last-child{
+    margin-bottom: 0;
+}
+
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.colors-item{
+    margin-bottom: .7rem;
+    margin-right: .2rem;
+    width: 20%;
+    height: 2rem;
+    cursor: pointer;
+    outline: 1px solid rgba(0, 0, 0, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.item p{
+    margin: .5rem 0;
+    font-size: 1rem;
+}
+
+#color{
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.clear{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+
+.fill-item:nth-child(1n){
+    height: 2px;
+}
+.fill-item:nth-child(2n){
+    height: 4px;
+}
+.fill-item:nth-child(3n){
+    height: 8px;
+}
+
+#black{
+    background-color: rgba(0, 0, 0, 1);
+}
+#white{
+    background-color: rgba(255, 255, 255, 1);
+}
+#gray{
+    background-color: rgba(127,127,127, 1);
+}
+#brown{
+    background-color: rgba(136,0,21, 1);
+}
+#red{
+    background-color: rgba(237,28,36, 1);
+}
+#orange{
+    background-color: rgba(255,127,39, 1);
+}
+#yellow{
+    background-color: rgba(255,242,0, 1);
+}
+#green{
+    background-color: rgba(34,177,76, 1);
+}
+#cyan{
+    background-color: rgba(0,162,232, 1);
+}
+#blue{
+    background-color: rgba(63,72,204, 1);
+}
+#purple{
+    background-color: rgba(163,73,164, 1);
+}
+#violet{
+    background-color: rgba(200,191,231, 1);
+}
